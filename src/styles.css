@@ -1,0 +1,38 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.galleryList {
+  list-style: none;
+  margin: 10px;
+}
+
+.stats {
+  display: flex;
+}
+.stats-item + .stats-item {
+  margin-left: 40px;
+}
+img {
+  height: 260px;
+  width: 420px;
+  object-fit: cover;
+}
+.loadMore {
+  background-color: rgb(116, 116, 199);
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: blue;
+  color: blue;
+  margin-bottom: 20px;
+}
+.placeholder {
+  border-color: blue;
+  color: blue;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
