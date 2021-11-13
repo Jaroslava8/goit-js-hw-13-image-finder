@@ -20,19 +20,22 @@ img {
   object-fit: cover;
 }
 .loadMore {
-  background-color: rgb(116, 116, 199);
+  background-color: rgb(218, 218, 228);
   border-radius: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-color: blue;
-  color: blue;
+  border-color: rgb(66, 63, 63);
+  color: rgb(49, 49, 54);
   margin-bottom: 20px;
 }
 .placeholder {
-  border-color: blue;
-  color: blue;
+  border-color: rgb(56, 56, 70);
+  color: rgb(53, 53, 58);
   border-radius: 30px;
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.bodyStyle{
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/background.jpg);
 }

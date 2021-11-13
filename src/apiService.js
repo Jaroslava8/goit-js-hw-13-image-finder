@@ -11,7 +11,6 @@ export default class ApiService {
     
     const url = `https://pixabay.com/api/?image_type=photo&orientation=horizontal&q=${this.searchQuery}&page=${this.page}&per_page=${this.perPage}&key=${KEY}`
 
-
     return fetch(url)
       .then(response => response.json())
       .then(data => {
